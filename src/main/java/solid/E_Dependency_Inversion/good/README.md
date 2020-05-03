@@ -1,0 +1,3 @@
+Para introducir una abstracción que desacople ambas clases creamos la interfaz Car de forma que la clase Driver en su constructor recibirá un objeto que implementa dicha interfaz. En el ejemplo la clase RacingCar implementa dicha interfaz pero si hemos aplicado correctamente los otros principios podremos utilizar otras implementaciones y ampliar la funcionalidad del sistema sin que se produzcan errores.
+
+> Este principio está relacionado con el concepto de "Inyección de Dependencias" ya que será otro sistema el que 'inyecte' en tiempo de ejecución la implementación que requiera la clase en el constructor.
