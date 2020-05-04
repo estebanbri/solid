@@ -10,3 +10,5 @@
  
 - No implementar reglas de validación más estrictas en los parámetros de entrada que las implementadas por la clase base.
 - Aplicar al menos las mismas reglas a todos los parámetros de salida aplicados por la clase base.
+
+- Solucion: La solucion a los problemas de LSP radica en hacer un refactor y modificar la jerarquia de herencia que seguramente no es la correcta.
